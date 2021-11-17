@@ -1,7 +1,8 @@
 import "./App.css";
+import NavbarRouter from "./routes/NavbarRouter";
 
-function App() {
-    return <></>;
-}
+const App = () => {
+    return <NavbarRouter />;
+};
 
 export default App;
